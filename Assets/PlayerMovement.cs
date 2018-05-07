@@ -10,20 +10,20 @@ public class PlayerMovement : MonoBehaviour {
 		Vector3 newPos = player.position;
 		if(dir == direction.East){
 			newPos.x = player.position.x - 2.5f;
-			transform.position = Vector3.Lerp (player.position, newPos, 1);
+			player.position = Vector3.Lerp (player.position, newPos, 1);
 		}
 		if(dir == direction.West){
 			newPos.x = player.position.x + 2.5f;
-			transform.position = Vector3.Lerp (player.position, newPos, 1);
+			player.position = Vector3.Lerp (player.position, newPos, 1);
 		}
 		if(dir == direction.South){
 			newPos.z = player.position.z - 2.5f;
-			transform.position = Vector3.Lerp (player.position, newPos, 1);
+			player.position = Vector3.Lerp (player.position, newPos, 1);
 		}
 		if(dir == direction.North){
 			newPos.z = player.position.z + 2.5f;
-			transform.position = Vector3.Lerp (player.position, newPos, 1);
-			Debug.Log (newPos.z);
+			player.position = Vector3.Lerp (player.position, newPos, 1);
+			//Debug.Log (newPos.z);
 		}
 		dir = direction.None;
 
