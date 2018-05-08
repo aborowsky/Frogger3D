@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LogsData.cs">
+    <Files>
+      <File FileName="Assets/VehicleData.cs" Line="7" Column="17" />
+      <File FileName="Assets/VehicleGeneration.cs" Line="9" Column="37" />
+      <File FileName="Assets/LogGeneration.cs" Line="18" Column="20" />
+      <File FileName="Assets/PlayerMovement.cs" Line="26" Column="6" />
+      <File FileName="Assets/Scripts/Follow_Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Score.cs" Line="1" Column="1" />
+      <File FileName="Assets/LogsData.cs" Line="5" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
